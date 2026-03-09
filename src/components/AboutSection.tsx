@@ -48,7 +48,7 @@ const AboutSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.5, delay: i * 0.15 }}
-              className="glass rounded-2xl p-8 hover:shadow-xl transition-shadow duration-300 group"
+              className="bg-purple-100 dark:bg-purple-800/40 rounded-2xl p-8 backdrop-blur-md border border-purple-200 dark:border-purple-500/20 hover:-translate-y-2 hover:shadow-xl transition-all duration-300"
             >
               <div className="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center mb-5 group-hover:bg-accent/20 transition-colors">
                 <card.icon className="text-accent" size={24} />

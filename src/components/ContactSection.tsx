@@ -115,9 +115,9 @@ const ContactSection = () => {
             <div className="glass rounded-2xl p-6 space-y-5">
               <h3 className="font-display font-semibold text-lg">Connect</h3>
               {[
-                { icon: Mail, label: "anantkaushik2447@gmail.com", href: "mailto:anantkaushik2447@gmail.com" },
-                { icon: Github, label: "github.com/k4u5hik1420", href: "https://github.com/k4u5hik1420" },
-                { icon: Linkedin, label: "LinkedIn Profile", href: "https://linkedin.com/in/k4u5hik14" },
+                { icon: Mail, label: "Gmail", href: "mailto:anantkaushik2447@gmail.com" },
+                { icon: Github, label: "GitHub", href: "https://github.com/k4u5hik1420" },
+                { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/k4u5hik14" },
                 { icon: MessageCircle, label: "Phone: 7906382749", href: "tel:+917906382749" },
               ].map((link) => (
                 <a
