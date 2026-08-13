@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
-import facetrackImg from "@assets/facetrack-preview.png";
+import facetrackPreview from "../assets/facetrack-preview.png";
 import omnibridgexImg from "@/assets/omnibridgex-preview.png";
 import mountainMateImg from "@/assets/mountain-mate-preview.jpeg";
 import darkmodeImg from "@/assets/darkmode-lightmode-preview.png";
@@ -20,7 +20,7 @@ const projects = [
     tech: ["OpenCV", "NumPy", "Flask", "SQLAlchemy", "SQLite", "React", "Vite", "Tailwind CSS"],
     color: "from-cta/15 to-accent/15",
     github: "https://github.com/K4U5HIK1420/FaceTrack",
-    image: facetrackImg,
+    image: facetrackPreview,
   },
   {
     title: "PROJECT-X: AI Career Counselling",
