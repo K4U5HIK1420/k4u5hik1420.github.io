@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
+import facetrackImg from "@assets/facetrack-preview.png";
 import omnibridgexImg from "@/assets/omnibridgex-preview.png";
 import mountainMateImg from "@/assets/mountain-mate-preview.jpeg";
 import darkmodeImg from "@/assets/darkmode-lightmode-preview.png";
@@ -13,12 +14,21 @@ const filters = ["All", "AI / ML", "Systems", "Web"];
 
 const projects = [
   {
+    title: "FaceTrack: AI Face Recognition Attendance System",
+    description: "Built a full-stack attendance system that uses OpenCV to detect and recognize faces from a webcam, then automatically records duplicate-safe daily attendance. Developed a Flask REST API with SQLite persistence, secure admin authentication, CSV export, attendance analytics, and a React + Tailwind dashboard for viewing students, records, and attendance percentages.",
+    tags: ["Systems", "Web", "AI / ML"],
+    tech: ["OpenCV", "NumPy", "Flask", "SQLAlchemy", "SQLite", "React", "Vite", "Tailwind CSS"],
+    color: "from-cta/15 to-accent/15",
+    github: "https://github.com/K4U5HIK1420/FaceTrack",
+    image: facetrackImg,
+  },
+  {
     title: "PROJECT-X: AI Career Counselling",
     description: "AI-powered career guidance platform with resume analysis, career domain prediction, skill gap detection, and employability scoring using TF-IDF and Logistic Regression.",
     tags: ["AI / ML", "Web"],
     tech: ["Flask", "Python", "PostgreSQL", "REST APIs", "ML"],
     color: "from-accent/20 to-cta/20",
-    github: "https://github.com/K4U5HIK1420",
+    github: "https://github.com/K4U5HIK1420/PROJECT-X-MAIN",
     image: projectxImg,
   },
   {
